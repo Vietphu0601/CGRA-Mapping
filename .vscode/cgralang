@@ -1,0 +1,20 @@
+#!/bin/sh -eu
+
+# Mặc định đầu vào là file C (chỉ định qua `-f`)
+while getopts "f:" opt; do
+  case $opt in
+    f) F=$OPTARG ;;  # Lấy file C từ tham số `-f`
+    \?) echo "Invalid option -$OPTARG" >&2; exit 1 ;;
+  esac
+done
+
+# Kiểm tra nếu file không được cung cấp
+if [ -z "${F:-}" ]; then
+  echo "Usage: $0 -f <source_file.c>"
+  exit 1
+fi
+
+# Biên dịch C thành LLVM IR
+./llvm-project/build/bin/clang -O3 -fno-unroll-loops -fno-vectorize -fno-slp-vectorize -S -emit-llvm -o extracted.ll "$F"
+
+echo "LLVM IR đã được tạo: extracted.ll"
