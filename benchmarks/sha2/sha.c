@@ -18,14 +18,14 @@
 #define ROT32(x, n) ((x << n) | (x >> (32 - n)))
 
 #define FUNC(n, i)                                            \
-    temp = ROT32(A, 5) + f##n(B, C, D) + E + S[i] + CONST##n; \
+    temp = ROT32(A, 5) + f##n(B, C, D) + E + W[i] + CONST##n; \
     E = D;                                                    \
     D = C;                                                    \
     C = ROT32(B, 30);                                         \
     B = A;                                                    \
     A = temp
 
-int sha1(int S[20])
+int sha1(int W[20])
 {
     int temp = 0;
     int A = 0;
@@ -45,6 +45,7 @@ int sha1(int S[20])
 
 int main()
 {
-    int S[80];
-    sha1(S);
+
+    int W[80];
+    sha1(W);
 }
