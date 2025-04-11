@@ -200,7 +200,7 @@ class DFG:
                 sccs.append(tmp_sccs[:])
 
     #Độ trễ đường đi trong SCC
-    #Tìm RecMII = max(delay/distance) trong Modulo Scheduling
+    #Tìm RecII = max(delay/distance) trong Modulo Scheduling
 
     def getPathDelay(self, scc):
 
