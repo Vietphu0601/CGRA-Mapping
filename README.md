@@ -28,7 +28,7 @@ Trong thư mục `benchmarks` bạn sẽ tìm thấy các đoạn mã mẫu có 
 - Các vòng lặp không chứa lời gọi hàm hoặc câu lệnh điều kiện.
 
 ## Hướng dẫn biên dịch
-Sau khi thêm chỉ thị ```#pragma cgra acc```  directive to your code, compile it with the following command:
+Sau khi thêm chỉ thị ```#pragma cgra acc```  cho mã của bạn, biên dịch nó bằng lệnh sau:
 
 ```bash
 ./cgralang -f benchmarks/sha2/sha.c
