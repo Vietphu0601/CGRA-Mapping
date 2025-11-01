@@ -41,10 +41,17 @@ Theo mặc định, mã sẽ được biên dịch cho kiến trúc CGRA kích t
 Kết quả đầu ra của trình biên dịch là một tệp có tên `cgra-code-acc`, chứa nhiều thông tin debug và kết quả ánh xạ.
 
 ## Kết quả ví dụ trực quan:
-1) ASAP, ALAP, MS
+1) ASAP, ALAP, MS:
 
 <img width="204" height="297" alt="image" src="https://github.com/user-attachments/assets/c14c9132-f805-4e30-b044-d7d30a6490b2" /><img width="164" height="307" alt="image" src="https://github.com/user-attachments/assets/97c1d566-d8ca-4784-8443-8c1404b58529" />
 <img width="397" height="311" alt="image" src="https://github.com/user-attachments/assets/e971d035-b9ed-4d8b-99e7-37c61c745bcb" />
+
+2) Kết quả chạy tìm II thỏa mãn:
+<img width="1232" height="364" alt="image" src="https://github.com/user-attachments/assets/b057c5de-710c-4ef6-b15b-e97ae4290fc2" />
+<img width="209" height="315" alt="image" src="https://github.com/user-attachments/assets/8a636418-74f2-4491-a303-5aea3187ce45" />
+<img width="146" height="234" alt="image" src="https://github.com/user-attachments/assets/d33a6bb9-0d2a-4b73-8c56-929bcae104be" />
+
+
 
 
 
