@@ -33,6 +33,7 @@ Sau khi thêm chỉ thị ```#pragma cgra acc```  cho mã của bạn, biên d�
 ```bash
 ./cgralang -f benchmarks/sha2/sha.c
 ```
+<img width="223" height="311" alt="image" src="https://github.com/user-attachments/assets/75716ffa-58fb-4fa5-878c-12e9a5a1757d" />
 
 Theo mặc định, mã sẽ được biên dịch cho kiến trúc CGRA kích thước 4x4.
 Để chỉ định kích thước CGRA khác, sử dụng tuỳ chọn `-x` and `-y`.
