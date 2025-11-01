@@ -33,10 +33,17 @@ Sau khi thêm chỉ thị ```#pragma cgra acc```  cho mã của bạn, biên d�
 ```bash
 ./cgralang -f benchmarks/sha2/sha.c
 ```
-<img width="223" height="311" alt="image" src="https://github.com/user-attachments/assets/75716ffa-58fb-4fa5-878c-12e9a5a1757d" />
 
 Theo mặc định, mã sẽ được biên dịch cho kiến trúc CGRA kích thước 4x4.
 Để chỉ định kích thước CGRA khác, sử dụng tuỳ chọn `-x` and `-y`.
 
 ## Output
 Kết quả đầu ra của trình biên dịch là một tệp có tên `cgra-code-acc`, chứa nhiều thông tin debug và kết quả ánh xạ.
+
+## Kết quả ví dụ trực quan:
+1) ASAP, ALAP, MS
+<img width="204" height="297" alt="image" src="https://github.com/user-attachments/assets/c14c9132-f805-4e30-b044-d7d30a6490b2" /><img width="164" height="307" alt="image" src="https://github.com/user-attachments/assets/97c1d566-d8ca-4784-8443-8c1404b58529" />
+<img width="397" height="311" alt="image" src="https://github.com/user-attachments/assets/e971d035-b9ed-4d8b-99e7-37c61c745bcb" />
+
+
+
