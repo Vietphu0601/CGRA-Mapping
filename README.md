@@ -51,6 +51,13 @@ Kết quả đầu ra của trình biên dịch là một tệp có tên `cgra-c
 <img width="209" height="315" alt="image" src="https://github.com/user-attachments/assets/8a636418-74f2-4491-a303-5aea3187ce45" />
 <img width="146" height="234" alt="image" src="https://github.com/user-attachments/assets/d33a6bb9-0d2a-4b73-8c56-929bcae104be" />
 
+3) Ứng dụng phần cứng:
+<img width="408" height="443" alt="image" src="https://github.com/user-attachments/assets/e2e5783e-f553-4bd8-abdf-88c05fb5cc41" />
+<img width="387" height="407" alt="image" src="https://github.com/user-attachments/assets/c5497832-16ae-4493-82df-6abab72bd7b7" />
+<img width="620" height="458" alt="image" src="https://github.com/user-attachments/assets/ea898e28-34e7-439e-9975-a0413bce5881" />
+
+
+
 
 
 
